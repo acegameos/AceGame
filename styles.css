@@ -7,15 +7,21 @@ body {
   padding: 0;
 }
 
-header {
+header.banner {
   background-color: #0073e6;
   color: white;
-  padding: 1rem;
+  padding: 2rem;
   text-align: center;
 }
 
-header h1 {
+header.banner h1 {
   margin: 0;
+  font-size: 2.5rem;
+}
+
+header.banner p {
+  margin: 0;
+  font-size: 1.2rem;
 }
 
 .main-section {
